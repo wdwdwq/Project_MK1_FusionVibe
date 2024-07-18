@@ -1,0 +1,23 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: grey;
+    color: white;
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
